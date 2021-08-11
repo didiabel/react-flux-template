@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const Home = () => {
   return (
     <div className="jumbotron">
-    <div className="row">
+    <div className="row w-100">
         <div className="col-lg-6 pt-5 px-5">
       <h1 style={{fontSize:'4rem'}}>React Flux template</h1>
       <br />
