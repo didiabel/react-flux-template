@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/react-flux-template/static/css/main.f2551676.chunk.css",
-    "main.js": "/react-flux-template/static/js/main.54a01a40.chunk.js",
-    "main.js.map": "/react-flux-template/static/js/main.54a01a40.chunk.js.map",
+    "main.js": "/react-flux-template/static/js/main.ad75934e.chunk.js",
+    "main.js.map": "/react-flux-template/static/js/main.ad75934e.chunk.js.map",
     "runtime-main.js": "/react-flux-template/static/js/runtime-main.6ea7cb67.js",
     "runtime-main.js.map": "/react-flux-template/static/js/runtime-main.6ea7cb67.js.map",
     "static/css/2.4be38407.chunk.css": "/react-flux-template/static/css/2.4be38407.chunk.css",
-    "static/js/2.e5b308f1.chunk.js": "/react-flux-template/static/js/2.e5b308f1.chunk.js",
-    "static/js/2.e5b308f1.chunk.js.map": "/react-flux-template/static/js/2.e5b308f1.chunk.js.map",
+    "static/js/2.faaf8241.chunk.js": "/react-flux-template/static/js/2.faaf8241.chunk.js",
+    "static/js/2.faaf8241.chunk.js.map": "/react-flux-template/static/js/2.faaf8241.chunk.js.map",
     "index.html": "/react-flux-template/index.html",
     "static/css/2.4be38407.chunk.css.map": "/react-flux-template/static/css/2.4be38407.chunk.css.map",
     "static/css/main.f2551676.chunk.css.map": "/react-flux-template/static/css/main.f2551676.chunk.css.map",
-    "static/js/2.e5b308f1.chunk.js.LICENSE.txt": "/react-flux-template/static/js/2.e5b308f1.chunk.js.LICENSE.txt",
-    "static/media/logo-circular-texto.ad37c191.png": "/react-flux-template/static/media/logo-circular-texto.ad37c191.png"
+    "static/js/2.faaf8241.chunk.js.LICENSE.txt": "/react-flux-template/static/js/2.faaf8241.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6ea7cb67.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.e5b308f1.chunk.js",
+    "static/js/2.faaf8241.chunk.js",
     "static/css/main.f2551676.chunk.css",
-    "static/js/main.54a01a40.chunk.js"
+    "static/js/main.ad75934e.chunk.js"
   ]
 }
