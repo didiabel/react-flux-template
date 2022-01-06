@@ -1,9 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from '../store/appContext';
 import {Link} from 'react-router-dom'
-import ComponenteHijo1 from '../components/ComponenteHijo1'
-import ComponenteHijo2 from '../components/ComponenteHijo2'
-import ComponenteHijo3 from '../components/ComponenteHijo3'
 
 
 const Demo = () => {
@@ -12,9 +9,6 @@ const Demo = () => {
   return (
     <div className="container-fluid">
     <h1 className="text-center"></h1>
-      <ComponenteHijo1/>
-      <ComponenteHijo2/>
-      <ComponenteHijo3/>
       <br />
       <Link to="/" className="btn btn-primary">Ir a Inicio</Link>
     </div>
