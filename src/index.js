@@ -6,15 +6,15 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 //importamos el archivo index.css dentro de nuestro proyecto
 import './assets/css/index.css'
 import App from './App'
-import MyContextProvider from './store/appContext'
+import UserProvider from './store/appContext'
 
 //renderiza la app
 ReactDOM.render(
-  <MyContextProvider>
+  <UserProvider>
   <React.StrictMode>
     <App />
   </React.StrictMode>
-  </MyContextProvider>,
+  </UserProvider>,
   document.getElementById('root')
 );
 

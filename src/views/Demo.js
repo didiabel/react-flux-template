@@ -11,7 +11,7 @@ const Demo = () => {
   const {store} =useContext(Context)
   return (
     <div className="container-fluid">
-    <h1 className="text-center">{store.demo}</h1>
+    <h1 className="text-center"></h1>
       <ComponenteHijo1/>
       <ComponenteHijo2/>
       <ComponenteHijo3/>

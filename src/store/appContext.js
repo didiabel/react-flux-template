@@ -1,36 +1,21 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, { useState, createContext } from 'react'
 import getState from "./flux.js"; //importamos getState
 
   // exportamos el contexto
   export const Context = createContext(null)
+   const UserProvider = ({children}) => {
+      const [color1, setColor1] = useState("Yellow")
+      const [color2, setColor2] = useState('Red')
+      const [color3, setColor3] = useState('Grey')
 
-  const MyContextProvider = ({children}) => {
-    const [state, setState] = useState(getState({
-        getStore: () => state.store,
-        getActions: () => state.actions,
-        setStore: updatedStore =>
-            setState({
-                store: Object.assign(state.store, updatedStore),
-                actions: { ...state.actions }
-            })
-    }));
-
-    useEffect(() => {
-			/**
-			 Esta función es equivalente a "window.onLoad", solo se ejecuta una vez en toda la vida útil de la aplicación debe realizar sus solicitudes ajax o buscar solicitudes de API aquí. No use setState () para guardar datos en la tienda, en su lugar use acciones, como esta:
-
-			 * state.actions.loadSomeData(); <---- llamando a esta función desde las actions de flux.js
-			 *
-			 **/
-		}, []);
 
     return (
-      <Context.Provider value={state}>
+      <Context.Provider value={{color1, setColor1, color2, setColor2, color3, setColor3}}>
         {children}
       </Context.Provider>
     );
   };
 
 //exportamos el proveedor
-export default MyContextProvider
+export default UserProvider
 
